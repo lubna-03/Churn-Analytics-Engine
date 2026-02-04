@@ -62,37 +62,24 @@ An end-to-end Machine Learning solution designed to identify high-risk customers
 
 &nbsp;  ```bash
 
-&nbsp;  git clone \[https://github.com/YOUR\_USERNAME/YOUR\_REPO\_NAME.git](https://github.com/YOUR\_USERNAME/YOUR\_REPO\_NAME.git)
+&nbsp;  git clone 
 
 &nbsp;  cd YOUR\_REPO\_NAME
 
-
-
-2\. Install the required libraries: Open your terminal (or Anaconda Prompt) and run:
-
-
+2\. Install the required libraries: Open your terminal (or Anaconda Prompt) and run
 
 pip install streamlit pandas numpy xgboost scikit-learn imbalanced-learn
 
-
-
-
-
 3\. Launch the Application:
 
-
-
-
-
 streamlit run app.py
-
-
 
 
 
 📊 Evaluation \& Results
 
 The model was evaluated using a Confusion Matrix to ensure a balance between catching actual churners (Recall) and minimizing false alarms (Precision). With the 31-column optimized input, the model achieves a strong F1-Score, making it highly reliable for business retention strategies.
+
 
 
 
